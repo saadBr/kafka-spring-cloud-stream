@@ -42,8 +42,8 @@ Création d’un topic de test et envoi/réception de messages via la ligne de c
 - `kafka-console-consumer` pour les consommer
 
 **Capture d’écran :**
-> 📷 `![Console Producer](screenshots/producer)`
-> 📷 `![Console Consumer](screenshots/consumer)`
+> 📷 ![Console Producer](screenshots/producer.png)
+> 📷 ![Console Consumer](screenshots/consumer.png)
 
 ---
 
@@ -55,7 +55,7 @@ Mise en place d’un **service REST** qui joue le rôle de **Producer** :
 - Utilisation de `StreamBridge` pour envoyer un `PageEvent` vers un topic Kafka
 
 **Capture d’écran :**
-> 📷 `![REST Producer](screenshots/rest-producer.png)`
+> 📷 ![REST Producer](screenshots/rest-producer.png)
 
 ---
 
@@ -68,7 +68,7 @@ Création d’un **Consumer** avec Spring Cloud Stream :
 - Affichage du contenu dans la console
 
 **Capture d’écran :**
-> 📷 `![Kafka Consumer](screenshots/kafka-consumer.png)`
+> 📷 ![Kafka Consumer](screenshots/kafka-consumer.png)
 
 ---
 
@@ -81,7 +81,7 @@ Mise en place d’un **Supplier** qui génère périodiquement des événements 
 - Utilisation possible d’un intervalle configuré (fixedDelay, etc.)
 
 **Capture d’écran :**
-> 📷 `![Kafka Supplier](screenshots/supplier.png)`
+> 📷 ![Kafka Supplier](screenshots/supplier.png)
 
 ---
 
@@ -94,7 +94,7 @@ Implémentation d’un traitement temps réel avec **Kafka Streams** :
 - Écriture des résultats dans un topic de sortie (ex. `T4`)
 
 **Capture d’écran :**
-> 📷 `![Kafka Streams Processing](screenshots/agg.png)`
+> 📷 ![Kafka Streams Processing](screenshots/agg.png)
 
 ---
 
@@ -106,8 +106,8 @@ Création d’une petite **application Web** qui :
 - Affiche les statistiques en temps réel (tableau, graphiques, etc.)
 
 **Capture d’écran :**
-> 📷 `![Real-time Web UI](screenshots/real-time.png)`
-> 📷 `![Real-time Web UI](screenshots/graph.png)`
+> 📷 ![Real-time Web UI](screenshots/real-time.png)
+> 📷 ![Real-time Web UI](screenshots/graph.png)
 
 ---
 
@@ -121,5 +121,3 @@ Création d’une petite **application Web** qui :
     - Ouvrir l’UI Web pour voir les résultats temps réel.
 
 ---
-
-
